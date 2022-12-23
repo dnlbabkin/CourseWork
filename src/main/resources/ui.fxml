@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aeronautics.ui.controller.UIController">
+   <children>
+      <TextField fx:id="createId" layoutX="27.0" layoutY="37.0" />
+      <Text layoutX="27.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Создать объект" textAlignment="CENTER" wrappingWidth="149.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="549.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id" />
+      <TextField fx:id="createName" layoutX="27.0" layoutY="72.0" />
+      <Text layoutX="180.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" />
+      <TextField fx:id="createType" layoutX="27.0" layoutY="108.0" />
+      <Text layoutX="539.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тип" />
+      <TextField fx:id="createSpeed" layoutX="27.0" layoutY="144.0" />
+      <Text layoutX="182.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Скорость" />
+      <Button fx:id="create" layoutX="72.0" layoutY="175.0" mnemonicParsing="false" text="Создать" />
+      <Text layoutX="384.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Редактировать" textAlignment="CENTER" wrappingWidth="149.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="updateId" layoutX="384.0" layoutY="37.0" />
+      <TextField fx:id="updateName" layoutX="384.0" layoutY="72.0" />
+      <Text layoutX="537.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" />
+      <TextField fx:id="updateType" layoutX="384.0" layoutY="108.0" />
+      <TextField fx:id="updateSpeed" layoutX="384.0" layoutY="144.0" />
+      <Text layoutX="537.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Скорость" />
+      <Button fx:id="update" layoutX="410.0" layoutY="175.0" mnemonicParsing="false" text="Редактировать" />
+      <Text layoutX="181.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тип" />
+      <Text layoutX="186.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id" />
+      <TextField fx:id="getText" layoutX="28.0" layoutY="266.0" />
+      <Text layoutX="68.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вывести">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="get" layoutX="71.0" layoutY="298.0" mnemonicParsing="false" text="Вывести" />
+      <TextField fx:id="deleteText" layoutX="413.0" layoutY="266.0" />
+      <Text layoutX="455.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Удалить">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="delete" layoutX="458.0" layoutY="298.0" mnemonicParsing="false" text="Удалить" />
+   </children>
+</AnchorPane>
